@@ -1,8 +1,4 @@
-<%-- 
-    Document   : ResOrders
-    Created on : 27 Jun, 2022, 3:54:23 AM
-    Author     : Beast
---%>
+
 <%@page import="java.sql.ResultSet"%>
 <%@page import="java.sql.Statement"%>
 <%@page import="OFD.Database.SQLconnection"%>
