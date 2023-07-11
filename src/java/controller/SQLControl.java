@@ -14,7 +14,7 @@ import model.Cart;
 import model.Customer;
 import model.Product;
 
-m
+
 public class SQLControl {
 
     Connection con;
@@ -122,7 +122,7 @@ public class SQLControl {
 
         } catch (SQLException ex) {
             System.out.println("SQL Error insertOrder");
-            \
+            
             con.rollback();
         } finally {
             st.close();
