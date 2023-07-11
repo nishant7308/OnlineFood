@@ -1,8 +1,3 @@
-<%-- 
-    Document   : userFeedback
-    Created on : 22 Aug, 2022, 10:11:09 PM
-    Author     : Beast
---%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="model.Product"%>
 <%@page import="controller.SQLControl"%>
