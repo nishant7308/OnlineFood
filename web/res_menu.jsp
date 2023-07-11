@@ -1,8 +1,3 @@
-<%-- 
-    Document   : res_menu
-    Created on : 25 Jun, 2022, 11:46:27 AM
-    Author     : Beast
---%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="model.Product"%>
 <%@page import="controller.SQLControl"%>
