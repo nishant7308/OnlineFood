@@ -22,7 +22,6 @@
     });
   }
 
-  //Use this method of there are multiple codes with same properties
   if ($('.multiple-codes').length) {
     var code_type = '';
     var editorTextarea = $('.multiple-codes');
