@@ -1,8 +1,3 @@
-<%-- 
-    Document   : Home
-    Created on : 17 Jun, 2022, 10:19:42 PM
-    Author     : Beast
---%>
 
 <%@page import="java.sql.ResultSet"%>
 <%@page import="java.sql.Statement"%>
