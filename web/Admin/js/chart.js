@@ -1,8 +1,4 @@
 $(function() {
-  /* ChartJS
-   * -------
-   * Data and config for chartjs
-   */
   'use strict';
   var data = {
     labels: ["2013", "2014", "2014", "2015", "2016", "2017"],
@@ -99,7 +95,6 @@ $(function() {
       ],
     }],
 
-    // These labels appear in the legend and in the tooltips when hovering different arcs
     labels: [
       'Pink',
       'Blue',
