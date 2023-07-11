@@ -1,9 +1,3 @@
-<%-- 
-    Document   : clearcart
-    Created on : Dec 1, 2022, 4:03:00 PM
-    Author     : Murthi
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <html>
     <body>
