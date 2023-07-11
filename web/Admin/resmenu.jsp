@@ -1,8 +1,4 @@
-<%-- 
-    Document   : resmenu
-    Created on : 23 Jun, 2022, 4:52:18 AM
-    Author     : Beast
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
