@@ -1,8 +1,3 @@
-<%-- 
-    Document   : signup
-    Created on : 16 Jun, 2022, 3:07:21 AM
-    Author     : Beast
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
