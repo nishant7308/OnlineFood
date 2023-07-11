@@ -1,8 +1,3 @@
-<%-- 
-    Document   : usercart
-    Created on : 25 Jun, 2022, 4:38:53 PM
-    Author     : Beast
---%>
 
 <%@page import="model.Customer"%>
 <%@page import="controller.SQLControl"%>
