@@ -1,8 +1,3 @@
-<%-- 
-    Document   : logout
-    Created on : 20 jun, 2022, 2:14:18 PM
-    Author     : Beast
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <html>
