@@ -1,8 +1,4 @@
-<%-- 
-    Document   : MenuUpdate
-    Created on : 21 Jun, 2022, 2:56:31 AM
-    Author     : Beast
---%>
+
 <%@page import="java.sql.ResultSet"%>
 <%@page import="java.sql.Statement"%>
 <%@page import="OFD.Database.SQLconnection"%>
