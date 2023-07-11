@@ -1,8 +1,4 @@
-<%-- 
-    Document   : ResHome
-    Created on : 20 Jun, 2022, 9:54:23 PM
-    Author     : Beast
---%>
+
 
 <%@page import="java.util.Date"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
