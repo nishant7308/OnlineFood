@@ -1,9 +1,3 @@
-<%-- 
-    Document   : resmenuupdate
-    Created on : 27 Jun, 2022, 4:37:00 AM
-    Author     : Beast
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
