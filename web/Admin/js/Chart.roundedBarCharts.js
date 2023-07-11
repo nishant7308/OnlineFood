@@ -1,7 +1,4 @@
-/*
-*   Rounded Rectangle Extension for Bar Charts and Horizontal Bar Charts
-*   Tested with Charts.js 2.7.0
-*/
+
 Chart.elements.Rectangle.prototype.draw = function() {
 
     var ctx = this._chart.ctx;
@@ -9,8 +6,6 @@ Chart.elements.Rectangle.prototype.draw = function() {
     var left, right, top, bottom, signX, signY, borderSkipped, radius;
     var borderWidth = vm.borderWidth;
 
-    // If radius is less than 0 or is large enough to cause drawing errors a max
-    //      radius is imposed. If cornerRadius is not defined set it to 0.
     var cornerRadius = this._chart.config.options.cornerRadius;
     if(cornerRadius < 0){ cornerRadius = 0; }
     if(typeof cornerRadius == 'undefined'){ cornerRadius = 0; }
@@ -35,24 +30,18 @@ Chart.elements.Rectangle.prototype.draw = function() {
         borderSkipped = vm.borderSkipped || 'left';
     }
 
-    // Canvas doesn't allow us to stroke inside the width so we can
-    // adjust the sizes to fit if we're setting a stroke on the line
     if (borderWidth) {
-        // borderWidth shold be less than bar width and bar height.
         var barSize = Math.min(Math.abs(left - right), Math.abs(top - bottom));
         borderWidth = borderWidth > barSize? barSize: borderWidth;
         var halfStroke = borderWidth / 2;
-        // Adjust borderWidth when bar top position is near vm.base(zero).
         var borderLeft = left + (borderSkipped !== 'left'? halfStroke * signX: 0);
         var borderRight = right + (borderSkipped !== 'right'? -halfStroke * signX: 0);
         var borderTop = top + (borderSkipped !== 'top'? halfStroke * signY: 0);
         var borderBottom = bottom + (borderSkipped !== 'bottom'? -halfStroke * signY: 0);
-        // not become a vertical line?
         if (borderLeft !== borderRight) {
             top = borderTop;
             bottom = borderBottom;
         }
-        // not become a horizontal line?
         if (borderTop !== borderBottom) {
             left = borderLeft;
             right = borderRight;
