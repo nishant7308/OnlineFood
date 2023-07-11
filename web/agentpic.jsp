@@ -1,8 +1,4 @@
-<%-- 
-    Document   : agentpic
-    Created on : Nov 30, 2022, 10:58:19 AM
-    Author     : Murthi
---%>
+
 <%@page import="OFD.Database.SQLconnection"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="java.sql.SQLException"%>
