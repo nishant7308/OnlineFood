@@ -1,8 +1,3 @@
-<%-- 
-    Document   : trackorder
-    Created on : 27 Jun, 2022, 3:46:12 AM
-    Author     : Beast
---%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="model.Product"%>
 <%@page import="controller.SQLControl"%>
