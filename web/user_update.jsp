@@ -1,8 +1,3 @@
-<%-- 
-    Document   : user_update
-    Created on : Nov 29, 2022, 12:39:13 PM
-    Author     : Murthi
---%>
 
 <%@page import="OFD.Database.SQLconnection"%>
 <%@page import="java.sql.Connection"%>
