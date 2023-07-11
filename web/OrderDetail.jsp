@@ -1,8 +1,4 @@
-<%-- 
-    Document   : OrderDetail
-    Created on : 22 Aug, 2022, 9:21:15 PM
-    Author     : Beast
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="java.util.ArrayList"%>
