@@ -1,8 +1,4 @@
-<%-- 
-    Document   : RestaurantsActivation
-    Created on : 20 Jun, 2022, 8:58:29 PM
-    Author     : Beast
---%>
+
 <%@page import="java.sql.ResultSet"%>
 <%@page import="java.sql.Statement"%>
 <%@page import="OFD.Database.SQLconnection"%>
