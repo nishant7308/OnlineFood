@@ -1,9 +1,3 @@
-<%-- 
-    Document   : users_list
-    Created on : 17 Jun, 2022, 10:44:53 PM
-    Author     : Beast
---%>
-
 <%@page import="java.sql.ResultSet"%>
 <%@page import="java.sql.Statement"%>
 <%@page import="OFD.Database.SQLconnection"%>
