@@ -1,8 +1,3 @@
-<%-- 
-    Document   : cart
-    Created on : Sep 26, 2017, 2:34:03 PM
-    Author     : DC
---%>
 
 <%@page import="model.Customer"%>
 <%@page import="controller.SQLControl"%>
