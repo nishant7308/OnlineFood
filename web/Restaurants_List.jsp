@@ -1,8 +1,4 @@
-<%-- 
-    Document   : Restaurants_List
-    Created on : 18 Jun, 2022, 9:57:17 PM
-    Author     : Beast
---%>
+
 <%@page import="java.sql.ResultSet"%>
 <%@page import="java.sql.Statement"%>
 <%@page import="OFD.Database.SQLconnection"%>
