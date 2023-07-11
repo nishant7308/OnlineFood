@@ -1,8 +1,3 @@
-<%-- 
-    Document   : Reslog
-    Created on : 18 Jun, 2022, 4:06:56 AM
-    Author     : Beast
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
