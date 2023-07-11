@@ -1,8 +1,3 @@
-<%-- 
-    Document   : menupic
-    Created on : 25 Jun, 2022, 11:53:41 AM
-    Author     : Beast
---%>
 
 <%@page import="OFD.Database.SQLconnection"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
