@@ -1,8 +1,4 @@
-<%-- 
-    Document   : ResTrans
-    Created on : 27 Jun, 2022, 4:20:20 AM
-    Author     : Beast
---%>
+
 <%@page import="java.sql.ResultSet"%>
 <%@page import="java.sql.Statement"%>
 <%@page import="OFD.Database.SQLconnection"%>
