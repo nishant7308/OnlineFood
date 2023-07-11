@@ -1,11 +1,4 @@
-<%-- 
-    Document   : respic
-    Created on : 23 Jun, 2022, 4:11:10 AM
-    Author     : Beast
---%>
-
-
-<%@page import="OFD.Database.SQLconnection"%>
+]<%@page import="OFD.Database.SQLconnection"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="java.sql.SQLException"%>
 <%@page import="java.sql.DriverManager"%>
