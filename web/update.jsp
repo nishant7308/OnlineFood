@@ -1,9 +1,3 @@
-<%-- 
-    Document   : update
-    Created on : 27 Jun, 2022, 5:02:42 AM
-    Author     : Beast
---%>
-
 <%@page import="java.sql.Statement"%>
 <%@page import="OFD.Database.SQLconnection"%>
 <%@page import="java.sql.Connection"%>
