@@ -1,8 +1,3 @@
-<%-- 
-    Document   : index
-    Created on : 11 Jun, 2022, 9:48:52 PM
-    Author     : Beast
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
