@@ -1,8 +1,4 @@
-<%-- 
-    Document   : Adminlog
-    Created on : 18 Jun, 2022, 3:39:36 AM
-    Author     : Beast
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
