@@ -1,8 +1,3 @@
-<%-- 
-    Document   : del_reg
-    Created on : Nov 29, 2022, 2:04:22 PM
-    Author     : Murthi
---%>
 
 <%@page import="java.sql.ResultSet"%>
 <%@page import="java.sql.Statement"%>
