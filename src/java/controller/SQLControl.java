@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package controller;
 
 import java.security.SecureRandom;
@@ -18,10 +14,7 @@ import model.Cart;
 import model.Customer;
 import model.Product;
 
-/**
- *
- * @author DC
- */
+m
 public class SQLControl {
 
     Connection con;
@@ -124,12 +117,12 @@ public class SQLControl {
             String sql = "insert into orders(OrderDate,PaymentMethod,CustomerID) "
                     + "values ('" + date + "','" + payment + "','" + cusID + "')";
             st.executeUpdate(sql);
-            // If there is no error.
+            
             con.commit();
 
         } catch (SQLException ex) {
             System.out.println("SQL Error insertOrder");
-            //if have any error
+            \
             con.rollback();
         } finally {
             st.close();
